@@ -4,19 +4,13 @@ import Header from "./header";
 import WelcomeSection from "./welcomeSection";
 import TopArtists from "./topArtists";
 import MusicPlayer from "./musicPlayer";
+import "../assets/css/global.css";
 
 const Main = () => {
   return (
-    <div className="flex">
+    <div
+    >
       <Sidebar />
-      <div className="flex-1 bg-purple-900">
-        <Header />
-        <div className="p-4">
-          <WelcomeSection />
-          <TopArtists />
-        </div>
-      </div>
-      <MusicPlayer />
     </div>
   );
 };

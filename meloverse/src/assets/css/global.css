@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+.bg-container{
+  background: linear-gradient(180deg, #F95CC3 0%, #A04B95 0%, #6D427B 40.69%, #4F3C6C 73.86%, #13314D 100%) !important;
+} */
+.sidebar{
+  background: #D9D9D933;
+  position: fixed; /* Fixes the sidebar in place */
+  top: 0;          /* Aligns to the top */
+  left: 0;         /* Aligns to the left */
+  height: 100vh;   /* Makes it full height */
+  width: 250px;    /* Sets a consistent width */
+  color: white;    /* White text for readability */
+  padding: 20px; 
+}
+
