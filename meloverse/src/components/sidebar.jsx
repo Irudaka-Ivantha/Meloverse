@@ -6,9 +6,9 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       {/* Logo and Title */}
-      <div className="flex items-center space-x-3 mb-6">
+      <div className="flex-items-space">
         <img src={Music} alt="Music Logo" className="w-8 h-8" />
-        <p className="text-xl font-bold">Melo Verse</p>
+        <p className="font-bold text-20">Melo Verse</p>
       </div>
 
       {/* Navigation */}
